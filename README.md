@@ -14,7 +14,7 @@ This is a cloud-hosted interactive portfolio website deployed on an AWS EC2 Ubun
 - GitHub repo with clean version control
 
 ## Usage:
-1. Visit the website: `http://<your-public-ip>`
+1. Visit the website: http://http://13.236.116.147/
 2. Clone this repo
 3. Run `bash backup.sh` to archive `/var/www/html/`
 
