@@ -36,7 +36,7 @@ This is a cloud-hosted interactive portfolio website deployed on an AWS EC2 Ubun
 **Filename**: `backup.sh`  
 **Purpose**: Creates a compressed archive of the website files located in `/var/www/html`.
 
-
+```bash
 #!/bin/bash
 backup_file="/home/ubuntu/website-backup-$(date +%Y%m%d-%H%M%S).tar.gz"
 tar -czvf "$backup_file" /var/www/html
@@ -47,8 +47,5 @@ echo "✅ Website files backed up to: $backup_file"
 2. Clone this repo
 3. Run `bash backup.sh` to archive `/var/www/html/`
 
-```bash
-## 📄 License
-Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — © 2025 Muhammad Aayan
 
 
