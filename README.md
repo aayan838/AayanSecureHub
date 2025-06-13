@@ -19,7 +19,7 @@ This is a cloud-hosted interactive portfolio website deployed on an AWS EC2 Ubun
 - 💻 Custom HTML/CSS/JavaScript Website
 - 🛡️ Security Group with ports 22 (SSH), 80 (HTTP) open
 - 🧾 Bash script `backup.sh` to archive site content
-- 📹 [Video Explainer](https://www.youtube.com/watch?v=YOUR_VIDEO_LINK_HERE)  
+- 📹 [Video Explainer](https://youtu.be/KWENuZ_Acnc)  
 - 💾 [GitHub Repository](https://github.com/aayan838/AayanSecureHub)
 
 ---
