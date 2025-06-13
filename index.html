@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aayan’s Cloud-Based Portfolio Project</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+    }
+    header {
+      background-color: #111;
+      padding: 40px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    }
+    header h1 {
+      font-size: 32px;
+      color: #00e6e6;
+    }
+    header p {
+      font-size: 16px;
+      color: #ccc;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #ff4081;
+      border-bottom: 2px solid #444;
+      padding-bottom: 8px;
+    }
+    .section-box {
+      background: #2c2f3a;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+    .faq .question {
+      cursor: pointer;
+      background: #333;
+      padding: 12px;
+      margin: 10px 0;
+      border-left: 4px solid #00e6e6;
+    }
+    .faq .answer {
+      display: none;
+      background: #444;
+      padding: 10px;
+      margin-top: -10px;
+      border-left: 4px solid #ff4081;
+    }
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+      font-size: 14px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Aayan’s Cloud-Based Portfolio Project</h1>
+    <p>Student Number: 34872838</p>
+  </header>
+
+  <section>
+    <h2>📘 Project Description</h2>
+    <div class="section-box">
+      <p>As part of my ICT171 project, I have created a personal portfolio website hosted on a cloud-based virtual machine using Amazon EC2. The website aims to showcase my academic qualifications, technical skills, and personal achievements. It is structured into several sections, including an introduction, a project showcase, a resume section, and contact information.</p>
+
+      <p>The server runs Ubuntu Linux and is configured with Apache to serve the website. I wrote the HTML content and deployed it manually via command-line, aligning with the unit's learning objectives.</p>
+
+      <p>This project also includes selecting and applying a suitable content license. I have included visible license markings and referenced any external resources used in the development of the site.</p>
+
+      <p>Overall, this project enhances my technical, communication, and documentation skills and will remain live and accessible until grading is complete.</p>
+    </div>
+
+    <h2>💼 Resume</h2>
+    <div class="section-box">
+      <p><strong>Name:</strong> Muhammad Aayan</p>
+      <p><strong>Email:</strong> 34872838.student@murdoch.edu.au</p>
+      <p><strong>Skills:</strong> HTML, CSS, Linux, Apache, AWS EC2, JavaScript</p>
+      <p><strong>Experience:</strong> ICT Student – Hands-on cloud deployment, server config, portfolio hosting</p>
+    </div>
+
+    <h2>📂 Project Showcase</h2>
+    <div class="section-box faq">
+      <div class="question">Click to view: EC2 Configuration Highlights</div>
+      <div class="answer">
+        <p>- Launched EC2 Ubuntu instance (t2.micro) on AWS</p>
+        <p>- Installed Apache2 using CLI</p>
+        <p>- Used nano to write and edit HTML</p>
+        <p>- Configured Security Group to open ports 22, 80, 443</p>
+      </div>
+
+      <div class="question">Click to view: Challenges I Overcame</div>
+      <div class="answer">
+        <p>- Learned and applied SSH access using key pair</p>
+        <p>- Manually deployed site via secure CLI</p>
+        <p>- Debugged port/firewall settings to make website live</p>
+      </div>
+    </div>
+
+    <h2>📧 Contact</h2>
+    <div class="section-box">
+      <p>You can reach me through my university email or connect via GitHub to see more of my work.</p>
+      <p><strong>Email:</strong> 34872838.student@murdoch.edu.au</p>
+      <p><strong>GitHub:</strong> github.com/aayan-portfolio</p>
+    </div>
+
+    <h2>📄 License Rationale</h2>
+    <div class="section-box">
+      <p>I have selected the Creative Commons Attribution-ShareAlike (CC BY-SA 4.0) license for my website content. This allows others to share and adapt my work for any purpose, even commercially, with proper attribution and license use.</p>
+      <p>This reflects my belief in open knowledge and ensures clarity while acknowledging my original contributions.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Aayan — Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" style="color:#00e6e6;">CC BY-SA 4.0</a> | ICT171 Assignment 2
+  </footer>
+
+  <script>
+    // FAQ toggle
+    document.querySelectorAll('.question').forEach(q => {
+      q.addEventListener('click', () => {
+        const a = q.nextElementSibling;
+        a.style.display = (a.style.display === "block") ? "none" : "block";
+      });
+    });
+  </script>
+
+</body>
+</html>
