@@ -18,5 +18,6 @@ This is a cloud-hosted interactive portfolio website deployed on an AWS EC2 Ubun
 2. Clone this repo
 3. Run `bash backup.sh` to archive `/var/www/html/`
 
-## License:
-Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+## 📄 License
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — © 2025 Muhammad Aayan
+
